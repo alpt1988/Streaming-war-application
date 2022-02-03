@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_MainMenu"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Main Menu" />
+        <item
+            android:id="@+id/enterdemographicgroup"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Demographic group" />
+        <item
+            android:id="@+id/enterstudio"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Studio" />
+        <item
+            android:id="@+id/enterevent"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Event" />
+        <item
+            android:id="@+id/enterstreamingservice"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Streaming service" />
+        <item
+            android:id="@+id/offerevent"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Offer Event" />
+        <item
+            android:id="@+id/time"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Time" />
+    </group>
+</menu>

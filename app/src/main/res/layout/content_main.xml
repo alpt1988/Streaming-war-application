@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/enterstreamingservice"
+        android:layout_width="305dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="128dp"
+        android:onClick="onClickStreamUI"
+        android:text="Streaming service"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterdemographicgroup" />
+
+    <Button
+        android:id="@+id/enterevent"
+        android:layout_width="305dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="64dp"
+        android:onClick="onClickOpenEventUI"
+        android:text="Event"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterdemographicgroup" />
+
+    <Button
+        android:id="@+id/enterdemographicgroup"
+        android:layout_width="305dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onClickOpenDemoGroupUI"
+        android:text="demographic group"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout19" />
+
+    <Button
+        android:id="@+id/enterstudio"
+        android:layout_width="305dp"
+        android:layout_height="64dp"
+        android:onClick="onClickOpenStudioUI"
+        android:text="Studio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterdemographicgroup" />
+
+    <Button
+        android:id="@+id/offerevent"
+        android:layout_width="305dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="128dp"
+        android:onClick="onClickOpenOfferEventUI"
+        android:text="Offer Event"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterstudio" />
+
+    <Button
+        android:id="@+id/watchevent"
+        android:layout_width="305dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="196dp"
+        android:onClick="onClickOpenOfferUI"
+        android:text="watch Event"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterstudio" />
+
+    <Button
+        android:id="@+id/time"
+        android:layout_width="305dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="4dp"
+        android:onClick="onClickTimeUI"
+        android:text="Time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/offerevent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout19"
+        android:layout_width="313dp"
+        android:layout_height="140dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></LinearLayout>
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="81dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="65dp"
+        android:background="@null"
+        android:ems="14"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="textPersonName"
+        android:text="Mode: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/connectionMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="139dp"
+        android:layout_marginBottom="65dp"
+        android:onClick="onClickConnectionMode"
+        android:text="Online"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

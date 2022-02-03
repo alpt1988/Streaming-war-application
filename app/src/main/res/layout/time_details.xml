@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Enter Time"
+                android:textSize="36sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout18"
+            android:layout_width="393dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="383dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Month:"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp" />
+
+            <Spinner
+                android:id="@+id/monthid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:entries="@array/Month"
+                android:spinnerMode="dropdown"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout17"
+            android:layout_width="393dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="390dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Year:"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/yearid"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#090909" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="393dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="207dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="207dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="208dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginEnd="1dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/configuration"
+                android:layout_width="192dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text="Configuration"
+                android:textColor="#0E0E0E" />
+
+            <Button
+                android:id="@+id/nextmonth"
+                android:layout_width="196dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text="Next month"
+                android:textColor="#0E0E0E" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/displaytime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text="display time"
+                android:textColor="#0B0A0A" />
+
+            <Button
+                android:id="@+id/backtomain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClick"
+                android:text="Back To Main"
+                android:textColor="#0E0E0E" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

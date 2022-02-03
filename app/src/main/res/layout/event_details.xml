@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Enter Event"
+                android:textSize="32sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout18"
+            android:layout_width="393dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="383dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Type:"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/detailedEventTypeID"
+                android:layout_width="393dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#090909" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout17"
+            android:layout_width="393dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="390dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Name:"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/detailedEventNameID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:textColor="#090909" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Year:"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/detailedEventYearID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#090909" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Duration:"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/detailedEventDurationID"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number"
+                android:textColor="#090909" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="393dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="207dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Studio:"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/eventProduceStudioDetailsID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout10"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="207dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="License fee:"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp" />
+
+            <EditText
+                android:id="@+id/eventLicenseFeeDetailsID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="number" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout8"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="208dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textColor="#0C0C0C"
+                android:textSize="26sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="393dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="3dp"
+            android:orientation="horizontal"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="393dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/eventDetails_back"
+                android:layout_width="252dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClickCreateBack"
+                android:text="back" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/create_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClickCreateBack"
+                android:text="create" />
+
+            <Button
+                android:id="@+id/displayevents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onClickDisplayEvents"
+                android:text="display events" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
